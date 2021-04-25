@@ -16,7 +16,7 @@ pipeline {
 
     stage('Report & Publish') {
       parallel {
-        stage('Report & Publish') {
+        stage('Test & Publish') {
           agent {
             node {
               label 'docker'
